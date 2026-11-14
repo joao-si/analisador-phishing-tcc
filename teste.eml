@@ -1,0 +1,316 @@
+Received: from LV8P220MB0895.NAMP220.PROD.OUTLOOK.COM (2603:10b6:408:1c3::14)
+ by LV8P220MB1414.NAMP220.PROD.OUTLOOK.COM with HTTPS; Tue, 13 Oct 2026
+ 12:45:39 +0000
+Received: from DS7PR03CA0117.namprd03.prod.outlook.com (2603:10b6:5:3b7::32)
+ by LV8P220MB0895.NAMP220.PROD.OUTLOOK.COM (2603:10b6:408:1c3::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.496.23; Tue, 13 Oct
+ 2026 12:45:38 +0000
+Received: from DM2PEPF00003FC8.namprd04.prod.outlook.com
+ (2603:10b6:5:3b7:cafe::53) by DS7PR03CA0117.outlook.office365.com
+ (2603:10b6:5:3b7::32) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.496.5 via Frontend Transport; Tue, 13
+ Oct 2026 12:45:38 +0000
+Authentication-Results: mx.microsoft.com 1; spf=pass (sender IP is
+ 143.55.234.211) smtp.mailfrom=gupy.com.br; dkim=pass (signature was verified)
+ header.d=gupy.com.br;dmarc=pass action=none
+ header.from=gupy.com.br;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of gupy.com.br designates
+ 143.55.234.211 as permitted sender) receiver=protection.outlook.com;
+ client-ip=143.55.234.211; helo=v5211.v5dac4b84.use4.send.mailgun.net; pr=C
+Received: from v5211.v5dac4b84.use4.send.mailgun.net (143.55.234.211) by
+ DM2PEPF00003FC8.mail.protection.outlook.com (10.167.23.26) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.21.522.6 via Frontend Transport; Tue, 13 Oct 2026 12:45:37 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:56D8DBEDBB2231288EF89FDC7E33BB5EE434A78F0FD501F815DB706004DE0B94;UpperCasedChecksum:EB77D29EB21D2F17F5F17F853A5F134524186E82FD90252EE4A7F2B44CEDE10C;SizeAsReceived:1363;Count:16
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=gupy.com.br; q=dns/txt; s=krss; t=1791895528; x=1791902728;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender: Sender;
+ bh=C2nUvYOnWa9ejhiif8j0FuXza4A9HyCyNNbkgRdjuJU=;
+ b=jTGq8a1ustGy0e9zORgoJ6Pp9mV8uHDHTRQfure7rXDy5aQ1+Kxxf86OXVGKkPWwFDKBDtah55vJpAJT+LmftPKtZbDhhxREVFf99Sy2skt0eh5Il9Ghrgqvy4jUGYjR+AttceV2Kt9CmzbRkJg9OxHWh5ebCBUOwNR60JHwOx5E+moCXkQkvbfKgjU4m47yfqnoGkKoeiu58hWxsetYciTfwuD2Kuxqk6U+0xj7RCAymkcKeldLurTzwG8M0BT1dtYa9ktFudQPCcsdkfl75nE4CbEGbSfnYrOhwHG7BJQ5e87CKe7AGpPiZmo4oPkxGwQ8qxJa0Zw6T6h5UF7hYA==
+X-Mailgun-Sid: WyJlYzg3ZSIsImotdml0b3Jzb2FyZXNAaG90bWFpbC5jb20iLCJmZjg2MTIiXQ==
+Received: by 56a8152b9f31e62edb17b196790ae0109d254fdcc3af5720f725e518dd5383c8 with HTTP
+ id 6ace27e67d46bcd8d9d0709e; Tue, 13 Oct 2026 12:45:26 GMT
+X-Mailgun-Sending-Ip: 143.55.234.211
+Sender: no-reply@gupy.com.br
+Date: Tue, 13 Oct 2026 12:45:26 +0000
+Subject: Processo seletivo | SoftExpert
+From: SoftExpert Software <no-reply@gupy.com.br>
+To: j-vitorsoares@hotmail.com
+X-Mailgun-Tag: feedback_email
+X-Mailgun-Tag: company-68472
+X-Mailgun-Tag: production
+Message-Id: <20261013124526.578c307ce8be68ca@gupy.com.br>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-IncomingHeaderCount: 16
+Return-Path: bounce+4a56db.ff8612-j-vitorsoares=hotmail.com@gupy.com.br
+X-MS-Exchange-Organization-ExpirationStartTime: 13 Oct 2026 12:45:38.3375
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 4f7c59f7-bc2e-43b5-c7d1-08df2927e214
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DM2PEPF00003FC8:EE_|LV8P220MB0895:EE_|LV8P220MB1414:EE_
+X-MS-Exchange-Organization-AuthSource: DM2PEPF00003FC8.namprd04.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/12/2026 8:33:28 PM
+X-MS-Office365-Filtering-Correlation-Id: 4f7c59f7-bc2e-43b5-c7d1-08df2927e214
+X-Sender-IP: 143.55.234.211
+X-MS-Exchange-EOPDirect: true
+X-SID-PRA: NO-REPLY@GUPY.COM.BR
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:4;ARA:1444111002|10300799038|9400799043|3069299007|9000799056|260826003000599003|1680799066|5139299004|47200799027|29080799009|68400799013|32080799009|58200799025|260928210016899003|1602099012|5090599003|30041999003|2607281247196008|1122599022|4302099013|3412199025|1380799030|1360799030|26104999009|440099028|1370799030;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 13 Oct 2026 12:45:37.1625
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4f7c59f7-bc2e-43b5-c7d1-08df2927e214
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: DM2PEPF00003FC8.namprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LV8P220MB0895
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.2399545
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0522.007
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90012020)(91020020)(91040095)(9050020)(9100341)(944500132)(2008001181)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?VDJwRGd3c2Y0bktGc2JVaUdLWDhYQml5Y0JZRXMvbnlGYmtWMlRWUnV3TVg3?=
+ =?utf-8?B?NTk2OWt5clRxTnZGbG9qSGVNTmpTWmc0TXRiK0I3eElkUjJGZm5ySWdqejdq?=
+ =?utf-8?B?Q25CRmg0ZW9Pd0o4SlR6RzZiajk1UitPemE4OUhrOTllZTR5UThuNjNTN1Bp?=
+ =?utf-8?B?MzcrNnRMZlY2bFowc2lWMzZ6M0xkbnQ0ZWJFcklZeEZlRXUyQlZPSC9ZeFdF?=
+ =?utf-8?B?b0pvUDRqSURjdno3S3BhT3hVZ0RKYXRqQmxROEZsSHZvdmRlcllYOFVZZ1ZO?=
+ =?utf-8?B?T1grWjJHRVVVbUo2WDNTTjZsc3k4blRWM3hBbHpnc0J5bTBBY044Sm4rT2dW?=
+ =?utf-8?B?UXJ3TDdnSk5FRW91RDVkV2VJKzk1SmNlTm5vZ2Vnc1o5ZUlFS0k5WlNudCsz?=
+ =?utf-8?B?VnY1Q3JDMTRUYWxhNk4wTjJrT1BMbUEwQWI4MlZHNXFSNmRudkJCZkVyTFNn?=
+ =?utf-8?B?MjFuWFNHejVidVJnQ2ttV1kzc0YxUHRzLzk2TkRqclluUjM0bnVkY2x0OXd1?=
+ =?utf-8?B?MVlZRTZQZFlSdkZyOUZDYTdIYzNUK2FUU0kvOFRlZTFFNTR1WTZPbW5oK1da?=
+ =?utf-8?B?SmtnWG5LN090STJDd0dyVUorWkR1K3lkVlM0TGZ0ZERzNUdrQWEvcTJtTDgz?=
+ =?utf-8?B?dFU4R1FpeTVnbElJRkJNQlE0VFpSRk9tWWhpUHRJT0krYlpiN1FqTnNSY256?=
+ =?utf-8?B?NXBZcGJXUHNna2tDT242d2V0TnkwdkY4NzNUcUFmMlIwbVFFWGxJdEVuWE95?=
+ =?utf-8?B?cEFGdFBKZnFKc2kwV2VSeVVBbzBMTUwrQ3lucENtUVhZT0UrblVseUczb3Rh?=
+ =?utf-8?B?NllPYktRdnJIcFRvL2xKUmpXbkxuR016eXRaOC83eVI1MEJjRnJFckFIVkhn?=
+ =?utf-8?B?Z0w4U2lOUVRlOWtoSkRpK2lLaHMzTlQxKys4MnQwWTlpQnJtaFhYd2hra0pB?=
+ =?utf-8?B?dEtZY3FsSytnNW83dkFUWWl6T1F5dlc5b3ZHQzl2dExTeGZmbDV1ZE9KeUV2?=
+ =?utf-8?B?d08wZDRlREZuWGovYWtpbEVJTTk5NVBtRUtmM3Z2WDZ2Z1Zyd2pVbjVuZVdz?=
+ =?utf-8?B?MTJkL3ozdnNTUitPMVhzVWNWY24xM0FlSkZUVXp2SFRFWXdublUvQlV3MDI4?=
+ =?utf-8?B?cWg5NmF2RWJWOTdFaUp6NXg0S0IrTitPNlFpdTE3ZVhUbXIvQlRiK0J3M2Jz?=
+ =?utf-8?B?TzBBVU1DQmE5QkJVUzRoQVNmb1UzTGJKTlYyMk1XbnJ4dUg5ZjRNQldRSkVJ?=
+ =?utf-8?B?alcvUHppQkN6VUl3QlM4b2Y5VVVlMEZzaFRQOCtsL3czWTRmbytZaXpFYzhj?=
+ =?utf-8?B?dnpmY3dBQmk3TjBqKzN5ckVaNGlGQlV3NDYwbXcwOGZ0UEJ0RlUxa0tiaDZt?=
+ =?utf-8?B?Rk1tWGFrRTdrQW1sd2RQMGxYVi9pVU03NGRPU1NsbzV6d2ZQei9XeGxpeUtW?=
+ =?utf-8?B?em9GWUM3NjZrODF0Qk5vcFhrcitXa0pnUUNFUzNVRDJHU2M4alZLRDhXQ0xX?=
+ =?utf-8?B?dndvcHFuN3NReDNqQjN4K2ZvMTE3ZU5vL3pRZ05uMEs2aGpvc1NDanR6c1pJ?=
+ =?utf-8?B?MzQ0THgvYTRXcG9WWGg4NVU5c1pic2w2TFFzbzA1Q0tQK2VJbFo1SG0xYVE4?=
+ =?utf-8?B?cHZubTdwT0tuSXBXMzZCR1RBcXptQlp4bFhNUEJXYmMvQ2ViVVdaR3BQeG9N?=
+ =?utf-8?B?SVlDZnpUWnNRdyt1NnpLMVJ0QlJ2UDZvbmh6cVhCemdScjZCQnVKU0pjU1M4?=
+ =?utf-8?B?Tm94cm5EbTFWeUwwQ1poUFVsVndPR1V1ZTBWdFMwa0wyNlFPZUpkL1VhUito?=
+ =?utf-8?B?ZE5ZMFRpc1lxU1ZkeEJOUnlCdHoySy9IMXovdk5NUTNlcmZGRkkvNG9maDhJ?=
+ =?utf-8?B?R2VhcUxWNVNWd3o4MkcxcmN0TGlqQVV5NDA5dElYcGttY1NHWmxselUrd1hr?=
+ =?utf-8?B?TmsvTFBaa1dmd3NLbXloelcyME5jREQ3OEVsb3U2K3Q1Nm82VTBNUTRIUlc3?=
+ =?utf-8?B?aWJvZWNZNHMwRzViazFHN29LT0RaVFFzWEpudnlsc25ZT0xnODlMM1BZVlJl?=
+ =?utf-8?B?QzQrY29FZDQ0ZlFQYmJ4ZVVnSnMrTlkydHlKY2tRZHU0TStsR0lNank5THVK?=
+ =?utf-8?B?aGc2ZGRTbHcrNHBvMjdYTW9KSlVuSERuWkcrdmRldXpEMk5sQ2xhaDY0MHpm?=
+ =?utf-8?B?ejd0VTJ3RnBBejFYYzdRRnkyeG0xSElFMFRjRnZsKzRDL29Vclh1K3I3cUtq?=
+ =?utf-8?B?aFN5czgrU3hLejR5OHp6TDl5WjhuamE5ZFIyZSt0dmpISWlWSGp2UlhwVXFz?=
+ =?utf-8?B?aXVOaFhyOXAvZkJnRGpXc2lLam43YXRJZUh5RXlGRWVKMlJGdFc1cEIwN3Er?=
+ =?utf-8?B?bE5HOVNPclRUUExPdGo1Yk1VYS82SjlIQy9kckF0dEk5dGplaTRGWWtlUm5q?=
+ =?utf-8?B?aEpXT3RsTlluRXpQZnJGSXRLNEQrSENiSE41S3M1ejc1T2ZDeHRyc3loK1pp?=
+ =?utf-8?B?K0MxdHpiZE50SUI0NHVuMnZNYmI4OWhRT2RsZHBmaFlFQWJ6Tld4RllxWXBI?=
+ =?utf-8?B?N3RtVDdiTWNiVWovK3MwQmxBUjVNdWFUWjJBaDdQUy9idjB5TDFLMjJuVkdu?=
+ =?utf-8?B?eFdqZTlmK3EwejhzeTZxTWROWWdDZEd4djdsVGhPSXp6K25vcnQ4Ri9JZjYz?=
+ =?utf-8?B?NFBlNUg0dldla2x5OXRXTzhUeFZISUx3SUV3dlAyL093Y2ZWTmNzTVlVbjRt?=
+ =?utf-8?B?dmRLMzlURHB2Sm1pNTVIOG10a0hrTkh5akJEaG9NRDliY3JDVFVvZVhSbHVz?=
+ =?utf-8?B?aWVRYms4alc0ZXFxbmd3WWI0amZlNWZRcHdhOVlia3BOaGxsc05zU3orM21s?=
+ =?utf-8?B?KzFya09zdlFXY0NoTk04anBQUk1FMUN3dGE0bHJGYlVUMzErMlByMktlNUxX?=
+ =?utf-8?Q?7vcZaq2gU/+lqx1n?=
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">
+  <link href=3D"https://fonts.googleapis.com/css?family=3DInter:400,700" re=
+l=3D"stylesheet" type=3D"text/css">
+
+  <title>Processo seletivo | SoftExpert</title>
+
+  <style>
+    a:link {
+      color: #1666DB;
+    }
+
+    h1, h2, h3, p, span {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      #container {
+        width: 320px !important;
+      }
+
+      #footer td,
+      th {
+        display: block;
+        text-align: center;
+      }
+
+      #application-info .sender {
+        font-size: 15px !important;
+        line-height: 15px !important;
+      }
+
+      #application-info .job {
+        font-size: 10px;
+      }
+
+      #button__long-text {
+        width: 210px !important;
+      }
+
+      h1 {
+        font-size: 18px;
+      }
+
+      h2 {
+        font-size: 14px;
+      }
+
+      a, p, div {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body style=3D"margin: 0; padding: 0;">
+  <div style=3D"font-family: Inter, Roboto, Arial, Helvetica, sans-serif; f=
+ont-size: 16px; line-height: 19px;
+    position: absolute; width: 100%; height: 100%; color: #27262A;">
+    <div id=3D"container" style=3D"width: 600px; max-width: 650px; margin: =
+auto; margin-top: 50px;">
+
+      <!-- Sender Info -->
+      <table style=3D"border: 1px solid #EEEEEE;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-align: left;
+        position: relative;
+        padding: 32px;
+        width: 100%">
+        <tbody><tr>
+          <td width=3D"76px">
+              <div style=3D"margin-right: 16px;">
+                <img style=3D"
+                width: 60px;
+                height: 60px;
+                overflow: hidden;
+                border-radius: 4px;
+                object-fit: cover" src=3D"https://attachments.gupy.io/produ=
+ction/companies/68472/career/165094/images/2025-02-27_16-21_companyLogoUrl.=
+png" alt=3D"profile picture">
+              </div>
+          </td>
+
+          <td>
+            <h1 style=3D"margin-bottom: 8px !important">
+              SoftExpert Software
+            </h1>
+            <h2 style=3D"font-weight: 400; color:#535257;">
+               - Analista GRC J=C3=BAnior - Seguran=C3=A7a da Informa=C3=A7=
+=C3=A3o
+            </h2>
+          </td>
+        </tr>
+      </tbody></table>
+
+      <!-- Message -->
+      <p style=3D"margin: 32px 0 16px!important; color: #535257">
+        Nova mensagem referente =C3=A0 vaga Analista GRC J=C3=BAnior - Segu=
+ran=C3=A7a da Informa=C3=A7=C3=A3o:
+      </p>
+
+      <div style=3D"border: 1px solid #EEEEEE;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-align: left;
+        position: relative;
+        padding: 32px;
+        margin-bottom: 32px;
+        width: 100%">
+
+        <div style=3D"color: #535257;" id=3D"message"><p>Ol=C3=A1 Jo=C3=A3o=
+ vitor, tudo bem?&nbsp;</p><p><br></p><p>Ficamos felizes pelo seu interesse=
+ em se tornar um Expert!&nbsp;</p><p><br></p><p>Informamos que o processo s=
+eletivo para a vaga Analista GRC J=C3=BAnior - Seguran=C3=A7a da Informa=C3=
+=A7=C3=A3o foi encerrado!</p><p><br></p><p>Continue acompanhando nossa p=C3=
+=A1gina de carreiras para pr=C3=B3ximas oportunidades.</p><p><br></p><p>Ate=
+nciosamente,&nbsp;</p><p><br></p><p>SoftExpert Software</p></div>
+
+        <!-- buttons -->
+        <div style=3D"margin-top: 48px;">
+        </div>
+        <p style=3D"margin-top: 32px !important; font-size: 14px; color: #A=
+86500">
+          <span style=3D"font-size: 12px; font-weight: bold; margin-right: =
+4px !important; display: inline-block; border: 2px solid #A86500; border-ra=
+dius: 50%; padding: 1px 8px !important">!</span>
+          <b>Observa=C3=A7=C3=A3o:</b> a empresa optou por n=C3=A3o receber=
+ respostas para esse e-mail.
+        </p>
+
+      </div>
+
+      <!-- Internal Mobility Message -->
+
+      <!-- Powered by Gupy-->
+      <div style=3D"text-align: center; margin: 32px 0px 24px 0px; font-siz=
+e: 14px; color:#535257">
+        <span style=3D"vertical-align: center;">Enviado por SoftExpert Soft=
+ware atrav=C3=A9s da Gupy</span>
+      </div>
+
+      <!-- Give Up -->
+      <div style=3D"text-align: center; margin:24px 15%; font-size: 14px;">
+        <span style=3D"vertical-align: center; color: #535257;">
+          Voc=C3=AA est=C3=A1 recebendo esse e-mail por estar inscrito em u=
+ma vaga na plataforma da Gupy. Caso n=C3=A3o queira mais receber e-mails re=
+ferentes a essa candidatura, voc=C3=AA pode cancelar a sua inscri=C3=A7=C3=
+=A3o na vaga por <a href=3D"https://email.gupy.com.br/c/eJwczM9uhCAQgPGngds=
+aGWHEA4defI2GP0OlVSE4u-m-fWOvX778ksvZogJJTs2LsosxYOXmQsAFcwJENEYZozWGkGi2Hh=
+aMeZLFwQioRjUp0AZwMLON0zhHsoHQRi_0-PVs7yHWYwhd7m5jbmL6ELAKWK-amX4bdR7-r1IFr=
+NGfqSTPdAlYfWt7iZ5LPS_Z3ffjVbj2q_pOl9DjVvnwZb95yS4TpeDjzyfdUbKL9Wj-fD_Q6hkk=
+u9ZresYbky8HfwEAAP__zLRORA" target=3D"_BLANK">aqui</a>.
+        </span>
+      </div>
+    </div>
+  </div>
+
+
+
+<img width=3D"1" height=3D"1" alt=3D"" src=3D"https://email.gupy.com.br/o/e=
+JwUylFuwyAMANDTlL9G2AHjfvgskwGzZltKRGml3n7K79Or0hoToDOBdAO-xYjs7gIRMoem1ALB=
+CkHNqzVctdZGKXu3CXok8LAChoi0xMRl9akYZyMuegn--3V8ltL3JQ835Of63mYfz67Dnpfg733=
+uuv2dwU1pZjVr-f2yE92U0vdDH58rcUjophyj11eZW3-4t-B_AAAA___gwziw"></body></htm=
+l>
